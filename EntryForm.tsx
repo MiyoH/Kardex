@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import { ProductType, MovementType, Size, InventoryMovement } from '../types';
+import { ProductType, MovementType, Size, InventoryMovement } from '../types.ts';
 
 interface EntryFormProps {
   onSubmit: (movement: Omit<InventoryMovement, 'id' | 'date'>) => void;
