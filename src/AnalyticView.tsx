@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { InventoryMovement, MovementType } from '../types';
+import { InventoryMovement, MovementType } from './types';
 import { 
   Calendar, 
   Trash2, 
