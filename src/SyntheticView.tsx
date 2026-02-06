@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { SummaryRow } from '../types';
+import { SummaryRow } from './types';
 import { 
   ClipboardList, 
   AlertTriangle, 
