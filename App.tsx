@@ -10,10 +10,9 @@ import {
   Package
 } from 'lucide-react';
 import { ProductType, MovementType, Size, InventoryMovement, SummaryRow } from './types';
-import EntryForm from './components/EntryForm';
-import SyntheticView from './components/SyntheticView';
-import AnalyticView from './components/AnalyticView';
-
+import EntryForm from "./EntryForm";
+import SyntheticView from "./SyntheticView";
+import AnalyticView from "./AnalyticView";
 const App: React.FC = () => {
   // Inicializa o estado a partir do localStorage para não perder dados ao atualizar
   const [movements, setMovements] = useState<InventoryMovement[]>(() => {
